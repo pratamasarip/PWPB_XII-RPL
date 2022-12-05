@@ -1,0 +1,66 @@
+body{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: #eaeaea;
+    color: #333;
+    }
+    .container{
+        width: 800px;
+        margin: auto;
+        background-color: #fff;
+    }
+    .header{
+        padding: 20px;
+        padding-bottom: 10px;
+    }
+    .header .judul{
+        font-size: 40px;
+        font-weight: bold;
+    }
+    .header ul li {
+        display: inline-block;
+        margin-top: 20px;
+        margin-right: 20px;
+        /* margin-left: -20px; */
+    }
+    .header a{
+        text-decoration:none;
+        color: salmon;
+        padding: 3px;
+    }
+    .header a:hover{
+        background-color: lightskyblue;
+        color: white;
+    }
+    .hero{
+        height: 250px;
+        background-image: url(https://i0.wp.com/dianisa.com/wp-content/uploads/2019/06/Logo-Avengers-2.jpg?fit=800%2C450&ssl=1);
+        background-size: cover;
+        background-position: -180px;
+        border-bottom: 5px solid lightskyblue;
+        border-top: 5px solid salmon;
+    }
+    .content{
+        padding: 20px;
+    }
+    .content h2{
+        font-size: 28px;
+        font-weight: bold;
+    }
+    .content .penulis{
+        font-size: 11px;
+        margin-top: -5px;
+    }   
+    .content .penulis a{
+        color: salmon;
+        text-decoration: none;
+    }
+    .content p{
+        margin-bottom: 20px;
+        font-size: 14px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .footer .copy {
+        color: #000000;
+        text-align: center;
+        font-size: 12px;
+    }

@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(14, 184, 235);
+}
+.wrapper{
+    background-color: aqua;
+    width: 1200px;
+    height: 100%;
+}
+
+.box-1{
+    width: 250px;
+    height: 250px;
+    background-color: rgb(10, 91, 241);
+    /* untuk pem=nulisan value ada 2 : 1. Y : X 
+    2. atas kanan bawah kiri*/
+    margin: 30px auto;
+}
+.box-2{
+    width: 200px;
+    height: 250px;
+    background-color: rgb(131, 172, 248);
+    /* untuk pem=nulisan value ada 2 : 1. Y : X 
+    2. atas kanan bawah kiri*/
+    /* hanya margin yang boleh minus */
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.box-3{
+    width: 250px;
+    height: 250px;
+    background-color: rgb(167, 195, 248);
+    /* untuk pem=nulisan value ada 2 : 1. Y : X 
+    2. atas kanan bawah kiri*/
+    margin: 30px auto;
+    border-top: 8px solid  black;
+    border-right: 8px dashed rgb(2, 1, 41);
+    border-bottom: 8px dotted rgb(12, 89, 231);
+    border-left: 8px double rgb(41, 7, 236);
+}

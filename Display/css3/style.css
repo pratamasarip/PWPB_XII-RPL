@@ -1,0 +1,40 @@
+body{
+    background-color: lightgray;
+}
+.wrapper{
+    background-color: rgb(245, 9, 9);
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 1200px;
+    height: 80%;
+    /* Overflow Auto : Otomatis menambahkan scroll untuk melihat konten , hidden : Menyembunyikan konten sesuai lebar frame, Scroll : Menambahkan Scroll Sebnyakbanyaknya */
+}
+
+.wrapper .box-1{
+    width: 150px;
+    height: 150px;
+    background-color: aqua;
+    overflow: auto;
+    display: inline-block ;
+}
+.wrapper .box-2{
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+    overflow: hidden;
+    display: inline-block ;
+}
+.wrapper .box-3{
+    width: 150px;
+    height: 150px;
+    background-color: blueviolet;
+    overflow: scroll;
+    display: inline-block ;
+}
+.wrapper .box-4{
+    width: 100px;
+    height: 150px;
+    background-color: burlywood;
+    overflow-x: scroll;
+    display: inline-block ;
+}
